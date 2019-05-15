@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <link rel = "stylesheet" href = "style.css">
-    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
 
   </head>
   <body>
@@ -17,45 +17,54 @@
       <nav id="page-top" class="mainNav"style="position:fixed; padding-top: 10px; z-index : 10000">
                     <li class="page-scroll"><a href="#page-top">Home</a></li>
                     <li class="hidden active"><a href="#page-top" style="padding-right:1000px;"></a></li>
-                    <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
                     <li class="page-scroll"><a href="#about">About</a></li>
+                    <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
                     <li class="page-scroll"><a href="#contact">Contact</a></li>
     </nav>
 
     <div class="container-fluid">
 
       <div class="row">
-        <img class="background" src="mountain.gif" alt="Mountain and water" style="width:100%;height:45em;">
-
+        <img class="background" src="organizing-desk.gif" alt="Desk gif" style="width:100%;height:45em;z-index: 2;">
       </div>
 
       <div id="about" class="row" style="font-weight:bold;">
-        <img src="profile.jpg" alt="a pic of me" style="width:15%;height:200px;position:absolute;transform:translate(275%,-250%);border-radius: 50%;">
           <h1> PUNAM WOOSAREE </h1>
-          <h2> University of Alberta </h2>
+          <h2> Developer. Designer. Creator </h2>
       </div>
 
-      <div class="row" style="background-color:#d7c3a3">
+      <div class="row" >
           <h3> About me </h3>
-          <p> Hey there! I'm Punam Woosaree, a computing science student at the University of Alberta in her final year.
-            I chose Computer Science as my major after having taken various classes, could not find a path that both satisfied the
-            logical and creative side of me. Computing Science provides the structure when building yet allows for creativity and exploration
-            when designing. Since choosing this path I've met great minds at events like Hackathons and a great group of women involved in STEM
-            activities from organizations like WISEST and student groups like Ada's Team. When I'm not struggling over assignments or overloading
-            on coffee you can find me with my husky pup, hanging with friends or taking sub-par pictures. Thanks for listening!
+          <p> Hey there! I'm Punam Woosaree, a recent computing science graduate of the University of Alberta.<br /><br />
+
+            My main passions are designing and implementing elegant and comprehensive systems, whether that be through UI/UX practices or design patterns.
+            I love working and collaborating as a team, where everyones unique experience can be utilized together to create applications and solve world problems.
+            Also, I enjoy a good struggle, and I'm never tired of finding new and efficient ways to solve a problem.
+            <br /><br />
+
+            In my past I've had the opportunity to work with many technologies, including but not limited to React, Meteor, Android, IOS, and MongoDB.
+            While working on various applications I've used workflow management tools such as Git, Bitbucket, JIRA and Trello.
+            Also, I have followed many design and software practices to ensure that all work and work flow is optimized and proceeding in good fashion.
+            <br /><br />
+
+            Choosing this path has allowed me  to meet great minds at events like Hackathons and a great group of women involved in STEM
+            activities from organizations like WISEST and student groups like Ada's Team. This field never ceases to amaze me in the
+            opportunities and avenues of innovation that are constantly arising.
+
+
 
           </p>
       </div>
 
 
-      <div id="portfolio" class="row" style="background-color:#8ec8d4">
+      <div id="portfolio" class="row" style="background-color:#d7c3a3">
         <div class="row" style="font-weight:bold;">
           <h3> Portfolio </h3>
           <h5 style="font-size:25px;"> Check out more projects on my <a href="https://github.com/punamw" style="font-size: 25px">Github!</a></h5>
         </div>
         <div class="col-md-4">
           <div class="card">
-            <div class="card-header">HackED 2019</div>
+            <div class="card-header">HackED</div>
             <img class="card-img-top" src="hackathon.JPG" alt="Hackathon Image" >
             <div class="card-body">Attended HackED 2019 at the University of Alberta. Hackathons are a great opportunity to learn a skill
             or build a project in a timed environment with lots of people available to help. My friends and I decided to learn Swift to make
@@ -65,12 +74,13 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <div class="card-header">Task Away!</div>
-            <img class="card-img-top" src="taskgif2.gif" alt="Card image" >
+            <div class="card-header">Walk and Talk</div>
+            <img class="card-img-top" src="wat2.gif" alt="Card image" >
             <div class="card-body">
-              An android app designed to pair users with tasks (tasks requesters) with users that can complete tasks (task providers).
-              Task providers can bid on a task they wish to complete and Task requesters can select the winner of the bid.
-              The app provides notifications for bids placed on a task or when a task is removed.
+              A secure mobile application that brings together women in menopause transition or postmenopausal who are interested to try walking
+               as a means to socialize and to alleviate their symptoms. It aims to support clinical research studies conducted by
+                Mature Women’s Health researchers on menopause.
+
               Completed as part of CMPUT 301 at the University of Alberta.
             </div>
           </div>
@@ -82,7 +92,7 @@
             <div class="card-body">This Web App aims to connect industry mentors with UAlberta students so they can learn
               valuable industry skills. Industry has shown extreme interest in connecting and increasing their presence on the university
               campus. Students may be too scared to approach mentors and mentors might not know how to connect. This is where Industry Bear aids
-              in bridging this gap. Stay tuned for more progress and exciting news!
+              in bridging this gap.
 
             </div>
           </div>
@@ -105,16 +115,19 @@
             <h4 style="padding-top:10px;font-size: 20px;"> Around the Web</h4>
             <div class="centerBlock">
             <a href="https://github.com/punamw" style="font-size: 25px"><img class="card-img-top" src="git.png" alt="github icon" style="width:65px; height:55px; float:left; padding-right:15px;"></a>
-            <a href="https://www.linkedin.com/in/punam-woosaree-153535179/" style="font-size:25px"><img class="card-img-top" src="link.png" alt="github icon" style="width:65px; height:55px; float:left; padding-right:15px;"></a>
-            <a href="/resume.pdf>" style="font-size: 25px;"><img class="card-img-top" src="resume1.png" alt="github icon" style="width:65px; height:55px; float:left; padding-right:15px;"></a>
+            <a href="https://linkedin.com/in/punamw" style="font-size:25px"><img class="card-img-top" src="link.png" alt="github icon" style="width:65px; height:55px; float:left; padding-right:15px;"></a>
+            <a href="PunamwResume.pdf" class="btnghost"><i class="fa fa-download"></i> <img class="card-img-top" src="resume1.png" alt="github icon" style="width:65px; height:55px; float:left; padding-right:15px;"></a>
           </div>
+          <div style="padding-top:20px;">
+          COPYRIGHT © PUNAM WOOSAREE 2018
+        </div>
           </div>
           </div>
 
           <div class="col-md-4">
             <div class="centerBlock">
             <h4 style="padding-top:10px;font-size: 20px;"> Look forward to hearing from you</h4>
-            <h5> woosaree@ualberta.ca</h5>
+            <h5><a href="mailto:woosaree@ualberta.ca" style="border-bottom:1px dashed #ccc;">woosaree@ualberta.ca</a><h5>
             <h5> (780)-782-0414</h5>
           </div>
           </div>
